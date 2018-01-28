@@ -1,10 +1,12 @@
 <template>
   <div>
     <h1>Edit Readme</h1>
-    <div>
-      From this form you can edit the readme of the project.
-      <textarea v-model="readme" placeholder="Content of the Readme file"></textarea>
-    </div>
+      <div>
+        From this form you can edit the readme of the project.
+      </div>
+      <div>
+        <textarea v-model="readme" placeholder="Content of the Readme file"></textarea>
+      </div>
     <button @click="save">Save changes</button>
   </div>
 </template>
